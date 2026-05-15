@@ -6,7 +6,7 @@ const Testimonials = () => {
     return ( 
         <div className="font-bricolage bg-gray-100 py-18 border-y border-gray-300">
             <div className="max-w-6xl mx-auto">
-                <p className="text-green text-[40px] text-center">Loved by students.</p>
+                <p className="text-green text-[62px] text-center">Loved by students.</p>
                 <p className="text-gray-600 text-center">Don't just take our word for it, see what others students are saying.</p>
                 <div className="grid grid-cols-3 my-18">
                     <div className="border border-gray-200 shadow-md w-80 p-7 grid gap-3 rounded-3xl">

@@ -4,6 +4,8 @@ import Trusted from "./Trusted";
 import Features from "./Features";
 import Testimonials from "./Testimonials";
 import FAQ from "./FAQ";
+import CTAsection from "./CTAsection";
+import Footer from "./Footer";
 
 const App = () => {
   return ( 
@@ -14,6 +16,8 @@ const App = () => {
       <Features />
       <Testimonials />
       <FAQ />
+      <CTAsection />
+      <Footer />
     </div>
    );
 }

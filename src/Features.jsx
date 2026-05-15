@@ -2,7 +2,7 @@ const Features = () => {
     return (
         <div className="font-bricolage my-20">
             <div className="max-w-6xl mx-auto">
-                <p className="text-green text-[35px] text-center">Study smarter, not harder.</p>
+                <p className="text-green text-[55px] text-center">Study smarter, not harder.</p>
                 <p className="text-gray-600 text-center">Everything you need to find the right study group, at the right time, <br /> with the right tutor.</p>
                 <div className="grid grid-cols-3 my-18">
                     <div className="border border-gray-200 shadow-md w-80 p-7 grid gap-3 rounded-3xl">
