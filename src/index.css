@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: "bricolage";
+    src: url("/src/assets/font/bricolage.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "bricolage-bold";
+    src: url("/src/assets/font/bricolage-bold.ttf") format(truetype);
+    font-style: normal;
+    font-weight: 100;
+}
+
+.font-bricolage{
+    font-family: "bricolage", sans-serif;
+}
+
+.font-bricolage-bold{
+    font-family: "bricolage-bold", sans-serif;
+}
+
+.bg-green{
+  background-color: #1a5c3a;
+}
+
+.text-green{
+  color: #1a5c3a;
+}
