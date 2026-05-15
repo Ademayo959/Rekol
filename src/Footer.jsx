@@ -1,4 +1,4 @@
-import logo from './assets/rekol-logo2.png'
+import logo from './assets/reekol-logo-bg.png'
 
 const Footer = () => {
     return (
@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="max-w-6xl mx-auto text-gray-500">
                 <div className='grid grid-cols-[40%_20%_20%_20%] gap-10 max-w-full my-12'>
                     <div>
-                        <img src={logo} alt="rekol logo" className='w-40' />
+                        <img src={logo} alt="rekol logo" className='w-35 my-2.5' />
                         <p className='w-90'>The modern platform for university students to find and host tutorials.</p>
                     </div>
                     <div className='grid gap-2'>

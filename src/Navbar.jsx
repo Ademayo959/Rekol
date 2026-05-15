@@ -1,11 +1,11 @@
-import logo from './assets/rekol-logo2.png'
+import logo from './assets/reekol-logo-bg.png'
 
 const Navbar = () => {
     return (
         <div className='font-bricolage border-b border-gray-100'>
             <div className='max-w-7xl m-auto py-4 flex items-center justify-between'>
                 <div className='cursor-pointer'>
-                    <img src={logo} alt="logo" className='w-40' />
+                    <img src={logo} alt="logo" className='w-35' />
                 </div>
                 <div className='flex gap-6 text-gray-600'>
                     <p className='cursor-pointer'>Products</p>
