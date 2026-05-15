@@ -4,7 +4,7 @@ const Features = () => {
             <div className="max-w-6xl mx-auto">
                 <p className="text-green text-[35px] text-center">Study smarter, not harder.</p>
                 <p className="text-gray-600 text-center">Everything you need to find the right study group, at the right time, <br /> with the right tutor.</p>
-                <div className="grid grid-cols-3 my-8">
+                <div className="grid grid-cols-3 my-18">
                     <div className="border border-gray-200 shadow-md w-80 p-7 grid gap-3 rounded-3xl">
                         <div className="h-9 w-9 rounded-full bg-gray-100 flex items-center justify-center">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="h-4.5 w-4.5 text-green">

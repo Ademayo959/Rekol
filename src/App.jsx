@@ -2,6 +2,8 @@ import Navbar from "./Navbar";
 import Hero from "./Hero";
 import Trusted from "./Trusted";
 import Features from "./Features";
+import Testimonials from "./Testimonials";
+import FAQ from "./FAQ";
 
 const App = () => {
   return ( 
@@ -10,6 +12,8 @@ const App = () => {
       <Hero />
       <Trusted />
       <Features />
+      <Testimonials />
+      <FAQ />
     </div>
    );
 }
