@@ -1,13 +1,13 @@
 import logo from './assets/reekol-logo-bg.png'
 import { Link } from 'react-router-dom';
 
-const Login = () => {
+const Signup = () => {
     const size = 24;
     return (
         <div className="font-bricolage">
             <div className="w-full h-screen grid grid-cols-2">
                 <div className="bg-[url('./assets/reekol-pattern.png')] px-8 py-14 grid justify-between">
-                    <Link to="/">
+                    <Link to="/" className='cursor-pointer`'>
                         <img src={logo} alt="logo" className='w-30' />
                     </Link>
                     <div className='flex items-end'>
@@ -19,8 +19,8 @@ const Login = () => {
                 </div>
                 <div className='my-auto'>
                     <div>
-                        <p className='text-center text-[36px]'>Welcome Back to Reekol!</p>
-                        <p className='text-gray-500 text-center'>Sign into your account</p>
+                        <p className='text-center text-[36px]'>Start using Reekol today!</p>
+                        <p className='text-gray-500 text-center'>Create an account</p>
                         <div className='w-100 m-auto my-3'>
                             <div className='my-2'>
                                 <p className='my-1.5'>Your Email</p>
@@ -30,21 +30,16 @@ const Login = () => {
                                 <p className='my-1.5'>Password</p>
                                 <input type="text" className='h-8 w-full border border-gray-300 rounded-lg px-4 py-5 text-bricolage outline-0' />
                             </div>
-                            <div className='flex justify-between w-full my-4'>
-                                <div className='flex gap-1'>
-                                    <input type="checkbox" className='accent-green-900' />
-                                    <p>Remember me</p>
-                                </div>
-                                <div>
-                                    <p className='text-gray-500'>Forgot Password</p>
-                                </div>
+                            <div>
+                                <p className='my-1.5'>Confirm Password</p>
+                                <input type="text" className='h-8 w-full border border-gray-300 rounded-lg px-4 py-5 text-bricolage outline-0' />
                             </div>
-                            <div className='w-full bg-green h-9 text-white flex items-center justify-center rounded-lg'>
-                                <p>Login</p>
+                            <div className='w-full bg-green h-9 text-white flex items-center justify-center rounded-lg my-6'>
+                                <p>Signup</p>
                             </div>
                             <div className='flex items-center my-6 justify-self-center'>
                                 <hr className='w-32 text-gray-400' />
-                                <p className='mx-3 text-[13px] text-gray-500'>INSTANT LOGIN</p>
+                                <p className='mx-3 text-[13px] text-gray-500'>OR SIGNUP WITH</p>
                                 <hr className='w-32 text-gray-400' />
                             </div>
                             <div className='flex justify-between'>
@@ -67,7 +62,7 @@ const Login = () => {
                                 </div>
                             </div>
                             <div className='my-12 justify-self-center'>
-                                <p className='text-gray-600'>Don't have an account <Link to="/signup"><span className='text-green'>Register?</span></Link></p>
+                                <p className='text-gray-600'>Already have an account  <Link to="/login"><span className='text-green'>Login?</span></Link></p>
                             </div>
                         </div>
                     </div>
@@ -77,4 +72,4 @@ const Login = () => {
     );
 }
 
-export default Login;
+export default Signup;

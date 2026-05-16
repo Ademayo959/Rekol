@@ -1,4 +1,5 @@
 import logo from './assets/reekol-logo-bg.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
@@ -13,12 +14,16 @@ const Navbar = () => {
                     <p className='cursor-pointer'>Resources</p>
                 </div>
                 <div className='flex gap-4'>
-                    <div className='border border-green-900 w-fit px-4 text-center h-9 flex items-center justify-center rounded-2xl cursor-pointer'>
-                        <p className='text-green'>Log In</p>
-                    </div>
-                    <div className='bg-green w-fit px-4 text-center h-9 flex items-center justify-center rounded-2xl cursor-pointer'>
-                        <p className='text-white'>Sign Up</p>
-                    </div>
+                    <Link to="/login">
+                        <div className='border border-green-900 w-fit px-4 text-center h-9 flex items-center justify-center rounded-2xl cursor-pointer'>
+                            <p className='text-green'>Log In</p>
+                        </div>
+                    </Link>
+                    <Link to="/signup">
+                        <div className='bg-green w-fit px-4 text-center h-9 flex items-center justify-center rounded-2xl cursor-pointer'>
+                            <p className='text-white'>Sign Up</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </div>
