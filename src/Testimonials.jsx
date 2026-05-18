@@ -10,7 +10,7 @@ const Testimonials = () => {
                 <p className="text-gray-600 text-center">Don't just take our word for it, see what others students are saying.</p>
                 <div className="grid grid-cols-3 my-18">
                     <div className="border border-gray-200 shadow-md w-80 p-7 grid gap-3 rounded-3xl">
-                       <p className="text-green">"Rekol completely saved me this semester, I found a last minute MTH 201 tutorial that covered exactly what came out in the exam. Best Decision ever."</p>
+                       <p className="text-green">"Reekol completely saved me this semester, I found a last minute MTH 201 tutorial that covered exactly what came out in the exam. Best Decision ever."</p>
                        <div className="flex items-center gap-2">
                             <div>
                               <img src={man} alt="" className="h-10 w-10 border border-gray-300 rounded-full object-cover"/>  
@@ -34,7 +34,7 @@ const Testimonials = () => {
                        </div>
                     </div>
                     <div className="border border-gray-200 shadow-md w-80 p-7 grid gap-3 rounded-3xl">
-                        <p className="text-green">"I was panicking the night before my stats exam and found a group meeting in 20 minutes. Passed with a B+. Rekol is genuinely a lifesaver."</p>
+                        <p className="text-green">"I was panicking the night before my stats exam and found a group meeting in 20 minutes. Passed with a B+. Reekol is genuinely a lifesaver."</p>
                        <div className="flex items-center gap-2">
                             <div>
                               <img src={female} alt="" className="h-10 w-10 border border-gray-300 rounded-full object-cover"/>  

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import screenshot from './assets/rekol-screenshot-enhanced.jpg'
 import marker from './assets/images-floating/marker.png'
 import sticky from './assets/images-floating/sticky.png'
@@ -25,9 +26,11 @@ const Hero = () => {
                     <p className="text-[85px] font-bricolage-bold tracking-tight text-green my-3 leading-20">Never miss a <br /> tutorial again</p>
                     <p className="text-gray-500 text-center">Reekol is the modern platform for last minute study groups, <br /> tracking exam prep, and finding the best tutors on campus</p>
                     <div className="flex gap-4 justify-self-center my-8">
-                        <div className='bg-green w-fit px-4 text-center h-9 flex items-center justify-center rounded-3xl shadow-md transition-all hover:-mt-1 cursor-pointer'>
-                            <p className='text-white'>Start For Free</p>
-                        </div>
+                        <Link to='/dashboard'>
+                            <div className='bg-green w-fit px-4 text-center h-9 flex items-center justify-center rounded-3xl shadow-md transition-all hover:-mt-1 cursor-pointer'>
+                                <p className='text-white'>Start For Free</p>
+                            </div>
+                        </Link>
                         <div className='border border-gray-300 w-fit px-4 text-center h-9 flex items-center justify-center rounded-3xl shadow-md transition-all hover:-mt-1 cursor-pointer'>
                             <p className='text-green'>Get a Demo</p>
                         </div>
